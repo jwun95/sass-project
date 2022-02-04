@@ -4,7 +4,7 @@
     overflow: hidden;
     align-items: center;
     text-align: center;
-    background: // 오른쪽으로 그라데이션 왼쪽, 오른쪽
+    background:
         linear-gradient(
             to right,
             rgba($primary-color, 0.9),
@@ -16,12 +16,12 @@
     &__name {
         font-size: 5rem;
         padding-bottom: 1rem;
-        margin-bottom: 1rem;
+        margin-top: 1rem;
         border-bottom: 2px solid set-text-color($primary-color);
 
         &--last {
             color: $secondary-color;
-            font-weight: 700; // 글자 굵기
+            font-weight: 700;
         }
     }
 }
